@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.page1 {
+    width: 100%;
+    height: 100vh;
+    background: url(./TAL-grand-canal-venice-italy-ENDNGRDVENICE0823-0f6c5bbc4afa44fd9c5a7f49d252ba5e.jpg);
+    background-size: cover;
+}
+
+.nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 0px 130px;
+    justify-content: space-between;
+}
+
+.nav .brand {
+    font-size: 35px;
+    color: black;
+    letter-spacing: 1.6px;
+    font-weight: 300;
+}
+
+.nav .part2 a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    font-family: 'Lora', serif;
+}
+
+.nav .part2 {
+    display: flex;
+    gap: 60px;
+    ;
+    font-weight: 550;
+}
+
+.page1 .cont {
+    width: 100vw;
+    height: 86vh;
+}
+
+.cont .txt-cont {
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+  padding: 95px 350px;gap: 12px;
+    align-items: center;
+}
+
+.txt-cont .venice {
+    font-size: 90px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.txt-cont .city {
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;margin-top: -15px;letter-spacing: 1.5px;
+}
+
+.cont .para {
+    color: whitesmoke;
+    font-size: 17px;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;line-height: 28px;
+    margin-top: 20px;
+}
+.cont .read{
+    border: none;padding: 13px 18px;border-radius: 15px;background-color:royalblue;
+    color:white;font-size: 19px;margin-top: 15px;
+    margin-top: 20px;transition: all ease-in 0.7s;
+}
+.cont .read:hover{
+    background-color: black;
+}
